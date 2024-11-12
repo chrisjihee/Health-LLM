@@ -1,11 +1,17 @@
-accelerate
 appdirs
 bitsandbytes
 black
 black[jupyter]
-datasets
 fire
-git+https://github.com/huggingface/peft.git
-git+https://github.com/huggingface/transformers.git
 gradio
 sentencepiece
+datasets
+protobuf
+
+# version-specific
+--extra-index-url https://download.pytorch.org/whl/cu118
+peft<0.10.0
+numpy<2.0.0
+torch<2.4.0
+accelerate<1.0.0
+transformers<4.39.0

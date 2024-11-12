@@ -6,6 +6,7 @@ import fire
 import torch
 from datasets import load_dataset
 from handler import DataHandler
+from inferer import Inferer
 from peft import (
     LoraConfig,
     get_peft_model,
@@ -168,12 +169,13 @@ def main(
     # loading the model with torch_dtype=torch.float16 with only fp16 and no LoRA leads
     # to `ValueError: Attempting to unscale FP16 gradients.`
 
-    model = load_model.from_pretrained(
+    model: LlamaForCausalLM = load_model.from_pretrained(
         model_name,
         load_in_8bit=train_in_8bit,
         torch_dtype=torch.float16 if any([use_lora, bf16]) else torch.float32,
         device_map=device_map,
     )
+    print(f"type(model)={type(model)}")
 
     if train_in_8bit:
         model = prepare_model_for_int8_training(model)
@@ -278,7 +280,27 @@ def main(
     # finally, train
     trainer.train()
 
+    print(f"output_dir={output_dir}")
     model.save_pretrained(output_dir)
+    tokenizer.save_pretrained(output_dir)
+    print(f"type(model)={type(model)}, model.dtype={model.dtype}")
+    print(f"type(tokenizer)={type(tokenizer)}")
+
+    model = AutoModelForCausalLM.from_pretrained(output_dir, torch_dtype='auto')
+    tokenizer = AutoTokenizer.from_pretrained(output_dir)
+    print(f"type(model)={type(model)}, model.dtype={model.dtype}")
+    print(f"type(tokenizer)={type(tokenizer)}")
+
+    medalpaca = Inferer(output_dir, "prompts/medalpaca.json")
+    sample = {
+        "instruction": "You are a personalized healthcare agent trained to predict readiness which ranges from 0 to 10 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps]: [2524.0, 2362.0, 2753.0, 3344.0, 2162.0, 1824.0, 2619.0, 2434.0, 2862.0, 1331.0, 1431.0] steps, [Burned Calorories]: [234.0, 222.0, 250.0, 331.0, 242.0, 218.0, 226.0, 226.0, 283.0, 138.0, 127.0] calories, [Resting Heart Rate]: [58.373215675354004, 57.88592052459717, 56.78752517700195, 0.0, 53.55788993835449, 0.0, 53.84395217895508, 53.669076919555664, 0.0, 0.0, 53.70508861541748, 54.71232509613037, 54.91011714935303, 55.746761322021484] beats/min, [SleepMinutes]: [440.0, 498.0, 449.0, 525.0, 387.0, 213.0, 388.0, 425.0, 231.0, 475.0, 368.0, 452.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        # "output": "The predicted readiness level is 5."
+    }
+    response = medalpaca.__call__(input=sample["input"], instruction=sample["instruction"])
+    print(f'input={sample["input"]}')
+    print(f'instruction={sample["instruction"]}')
+    print(f'response={response}')
 
 
 if __name__ == "__main__":

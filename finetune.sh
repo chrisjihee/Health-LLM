@@ -5,7 +5,7 @@ export TOKENIZERS_PARALLELISM=false
 data_path="data/generated_data_json/PMData_readiness_train_all.json"
 output_path="output/medalpaca-7b-tuned"
 
-torchrun --nproc_per_node=8 --master_port=2023 medalpaca/train.py \
+python medalpaca/train.py \
     --model "medalpaca/medalpaca-7b" \
     --data_path "$data_path" \
     --output_dir "$output_path" \

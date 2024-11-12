@@ -1,10 +1,11 @@
 #!/bin/bash
-            
-data_path="data/finetune_data.json"
-output_path="medalpaca-13b"
 
-torchrun --nproc_per_node=4 --master_port=2023 medalpaca/train.py \
-    --model "llama-13b-bf" \
+export OMP_NUM_THREADS=8
+data_path="data/generated_data_json/PMData_readiness_train_all.json"
+output_path="medalpaca-7b"
+
+torchrun --nproc_per_node=8 --master_port=2023 medalpaca/train.py \
+    --model "medalpaca/medalpaca-7b" \
     --data_path "$data_path" \
     --output_dir "$output_path" \
     --train_in_8bit False \

@@ -1,8 +1,9 @@
 #!/bin/bash
 
 export OMP_NUM_THREADS=8
+export TOKENIZERS_PARALLELISM=false
 data_path="data/generated_data_json/PMData_readiness_train_all.json"
-output_path="medalpaca-7b"
+output_path="output/medalpaca-7b-tuned"
 
 torchrun --nproc_per_node=8 --master_port=2023 medalpaca/train.py \
     --model "medalpaca/medalpaca-7b" \

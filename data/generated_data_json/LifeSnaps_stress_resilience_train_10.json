@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 28 out of 50, [Negative Affect Score]: 23 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "1.22"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 49 out of 50, [Negative Affect Score]: 12 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "4.08"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 32 out of 50, [Negative Affect Score]: 21 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "1.52"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 18 out of 50, [Negative Affect Score]: 13 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "1.38"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 33 out of 50, [Negative Affect Score]: 13 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "2.54"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [67.0, 70.0, 70.0] out of 100, [Positive Affect Score]: 27 out of 50, [Negative Affect Score]: 27 out of 50, [Lightly Active Minutes]: [215.0, 257.0, 265.0], [Moderately Active Minutes]: [24.0, 48.0, 27.0], [Very Active Minutes]: [29.0, 17.0, 8.0], [Sleep Efficiency]: [96.0, 98.0, 94.0], [Sleep Deep Ratio]: [0.8333333333333334, 1.3934426229508197, 1.0144927536231885], [Sleep Light Ratio]: [0.7048458149779736, 1.1134020618556701, 0.8955223880597015], [Sleep REM Ratio]: [0.7530864197530864, 0.8450704225352113, 0.9850746268656716].",
+        "output": "1.00"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [66.0, 0.0, 65.0] out of 100, [Positive Affect Score]: 30 out of 50, [Negative Affect Score]: 13 out of 50, [Lightly Active Minutes]: [99.0, 175.0, 273.0], [Moderately Active Minutes]: [13.0, 0.0, 36.0], [Very Active Minutes]: [24.0, 0.0, 38.0], [Sleep Efficiency]: [94.0, 96.0, 95.0], [Sleep Deep Ratio]: [1.0655737704918034, 0.639344262295082, 0.9830508474576272], [Sleep Light Ratio]: [0.722007722007722, 1.308, 0.833976833976834], [Sleep REM Ratio]: [0.49473684210526314, 1.0224719101123596, 0.5730337078651685].",
+        "output": "2.31"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 33 out of 50, [Negative Affect Score]: 12 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "2.75"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 46 out of 50, [Negative Affect Score]: 27 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "1.70"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [78.0] out of 100, [Positive Affect Score]: 35 out of 50, [Negative Affect Score]: 24 out of 50, [Lightly Active Minutes]: [11.0], [Moderately Active Minutes]: [0.0], [Very Active Minutes]: [0.0], [Sleep Efficiency]: [95.0], [Sleep Deep Ratio]: [1.4024390243902438], [Sleep Light Ratio]: [0.92], [Sleep REM Ratio]: [1.0786516853932584].",
+        "output": "1.46"
+    }
+]

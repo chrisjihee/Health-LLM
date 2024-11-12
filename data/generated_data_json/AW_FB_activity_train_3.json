@@ -1,0 +1,17 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 783.00 steps, [Burned Calorories]: 0.52 calories, [Heart Rate]: 95.50 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Lying"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 967.80 steps, [Burned Calorories]: 0.76 calories, [Heart Rate]: 91.46 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Self Pace walk"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 21.26 steps, [Burned Calorories]: 0.25 calories, [Heart Rate]: 80.23 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Running 7 METs"
+    }
+]

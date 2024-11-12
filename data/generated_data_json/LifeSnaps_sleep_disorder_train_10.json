@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 7.45 hours, [Minutes Awake]: 51.0 minutes, [Sleep Efficiency]: 91.0, [Sleep Deep Ratio]: 1.04, [Sleep Wake Ratio]: 0.89, [Sleep Light Ratio]: 1.08, [Sleep REM Ratio]: 0.99, [RMSSD]: 64.78, [SPO2]: 96.4 %, [Full Sleep Breathing Rate]: 19.2, [BPM]: 85.96, [Resting Hour]: 68.86 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 6.20 hours, [Minutes Awake]: 57.0 minutes, [Sleep Efficiency]: 94.0, [Sleep Deep Ratio]: 0.52, [Sleep Wake Ratio]: 1.14, [Sleep Light Ratio]: 1.03, [Sleep REM Ratio]: 0.69, [RMSSD]: 62.77, [SPO2]: 96.1 %, [Full Sleep Breathing Rate]: 13.2, [BPM]: 60.52, [Resting Hour]: 52.45 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 6.50 hours, [Minutes Awake]: 43.0 minutes, [Sleep Efficiency]: 99.0, [Sleep Deep Ratio]: 0.67, [Sleep Wake Ratio]: 0.98, [Sleep Light Ratio]: 1.12, [Sleep REM Ratio]: 0.81, [RMSSD]: 25.61, [SPO2]: 95.4 %, [Full Sleep Breathing Rate]: 13.8, [BPM]: 88.43, [Resting Hour]: 79.53 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 10.07 hours, [Minutes Awake]: 72.0 minutes, [Sleep Efficiency]: 92.0, [Sleep Deep Ratio]: 0.90, [Sleep Wake Ratio]: 0.99, [Sleep Light Ratio]: 1.17, [Sleep REM Ratio]: 1.16, [RMSSD]: 84.69, [SPO2]: 96.1 %, [Full Sleep Breathing Rate]: 18.6, [BPM]: 84.33, [Resting Hour]: 64.85 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 6.83 hours, [Minutes Awake]: 34.0 minutes, [Sleep Efficiency]: 97.0, [Sleep Deep Ratio]: 0.81, [Sleep Wake Ratio]: 0.76, [Sleep Light Ratio]: 1.16, [Sleep REM Ratio]: 0.84, [RMSSD]: 53.72, [SPO2]: 96.4 %, [Full Sleep Breathing Rate]: 13.8, [BPM]: 65.32, [Resting Hour]: 51.45 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 9.25 hours, [Minutes Awake]: 80.0 minutes, [Sleep Efficiency]: 95.0, [Sleep Deep Ratio]: 0.84, [Sleep Wake Ratio]: 0.96, [Sleep Light Ratio]: 0.96, [Sleep REM Ratio]: 1.10, [RMSSD]: 41.32, [SPO2]: 94.9 %, [Full Sleep Breathing Rate]: 10.0, [BPM]: 81.82, [Resting Hour]: 60.46 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 8.02 hours, [Minutes Awake]: 51.0 minutes, [Sleep Efficiency]: 91.0, [Sleep Deep Ratio]: 0.93, [Sleep Wake Ratio]: 0.84, [Sleep Light Ratio]: 0.92, [Sleep REM Ratio]: 1.56, [RMSSD]: 22.52, [SPO2]: 95.8 %, [Full Sleep Breathing Rate]: 11.2, [BPM]: 82.63, [Resting Hour]: 79.24 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 11.52 hours, [Minutes Awake]: 80.0 minutes, [Sleep Efficiency]: 91.0, [Sleep Deep Ratio]: 1.37, [Sleep Wake Ratio]: 1.08, [Sleep Light Ratio]: 1.55, [Sleep REM Ratio]: 1.49, [RMSSD]: 14.80, [SPO2]: 94.2 %, [Full Sleep Breathing Rate]: 0.0, [BPM]: 68.62, [Resting Hour]: 57.51 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 7.82 hours, [Minutes Awake]: 57.0 minutes, [Sleep Efficiency]: 100.0, [Sleep Deep Ratio]: 1.06, [Sleep Wake Ratio]: 1.04, [Sleep Light Ratio]: 0.81, [Sleep REM Ratio]: 1.36, [RMSSD]: 23.86, [SPO2]: 95.3 %, [Full Sleep Breathing Rate]: 14.6, [BPM]: 91.26, [Resting Hour]: 80.96 hours",
+        "output": "0"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following data, predict whether there exists sleep disorder (1) or not (0). [Sleep Duration]: 5.92 hours, [Minutes Awake]: 53.0 minutes, [Sleep Efficiency]: 96.0, [Sleep Deep Ratio]: 0.74, [Sleep Wake Ratio]: 0.88, [Sleep Light Ratio]: 1.19, [Sleep REM Ratio]: 0.11, [RMSSD]: 76.19, [SPO2]: 95.0 %, [Full Sleep Breathing Rate]: 23.8, [BPM]: 71.26, [Resting Hour]: 54.31 hours",
+        "output": "0"
+    }
+]

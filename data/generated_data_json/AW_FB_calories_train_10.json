@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 783.00 steps, [Heart Rate]: 95.50 beats/min, [Duration]: 3.58, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 0.517."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 967.80 steps, [Heart Rate]: 91.46 beats/min, [Duration]: 1.37, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 0.7555."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 21.26 steps, [Heart Rate]: 80.23 beats/min, [Duration]: 0.10, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 0.2546."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 141.00 steps, [Heart Rate]: 27.80 beats/min, [Duration]: 42.59, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 90.5."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 15.94 steps, [Heart Rate]: 78.47 beats/min, [Duration]: 12.17, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 10.3421685363248."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 5.75 steps, [Heart Rate]: 53.30 beats/min, [Duration]: 73.12, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 68.0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 5.50 steps, [Heart Rate]: 84.33 beats/min, [Duration]: 0.81, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 0.250333333333333."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 26.00 steps, [Heart Rate]: 2.22 beats/min, [Duration]: 10.93, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 20.5."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 2.63 steps, [Heart Rate]: 143.47 beats/min, [Duration]: 18.68, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 41.0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 89.00 steps, [Heart Rate]: 89.38 beats/min, [Duration]: 6.74, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn?",
+        "output": "The predicted calorie burn is 6.06453333333334."
+    }
+]

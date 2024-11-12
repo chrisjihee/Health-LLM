@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 783.00 steps, [Burned Calorories]: 0.52 calories, [Heart Rate]: 95.50 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Lying"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 967.80 steps, [Burned Calorories]: 0.76 calories, [Heart Rate]: 91.46 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Self Pace walk"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 21.26 steps, [Burned Calorories]: 0.25 calories, [Heart Rate]: 80.23 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Running 7 METs"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 141.00 steps, [Burned Calorories]: 90.50 calories, [Heart Rate]: 27.80 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Running 5 METs"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 15.94 steps, [Burned Calorories]: 10.34 calories, [Heart Rate]: 78.47 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Self Pace walk"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 5.75 steps, [Burned Calorories]: 68.00 calories, [Heart Rate]: 53.30 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Running 3 METs"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 5.50 steps, [Burned Calorories]: 0.25 calories, [Heart Rate]: 84.33 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Sitting"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 26.00 steps, [Burned Calorories]: 20.50 calories, [Heart Rate]: 2.22 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Running 5 METs"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 2.63 steps, [Burned Calorories]: 41.00 calories, [Heart Rate]: 143.47 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Running 7 METs"
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict the type of activity among ['Self Pace Walk', 'Sitting', 'Lying', 'Running 7 METs', 'Running 5 METs', 'Running 3 METs'] based on physiological data and user information.",
+        "input": "The recent sensor readings show: [Steps]: 89.00 steps, [Burned Calorories]: 6.06 calories, [Heart Rate]: 89.38 beats/min; What would be the predicted activity type?",
+        "output": "The predicted activity type is Self Pace walk"
+    }
+]

@@ -7,3 +7,4 @@ mamba install -n Health-LLM cuda-libraries=11.8 cuda-libraries-dev=11.8 cuda-cud
                       cuda-nvcc=11.8 cuda-cccl=11.8 cuda-runtime=11.8 cuda-version=12.4 \
                       libcusparse=11 libcusparse-dev=11 libcublas=11 libcublas-dev=11 \
                       -c nvidia -c pytorch -y
+pip install -U -r requirements.txt

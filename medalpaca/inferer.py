@@ -3,7 +3,8 @@ import json
 import torch
 from peft import PeftModel
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer, AutoModelForCausalLM, AutoTokenizer
-from .handler import DataHandler
+
+from handler import DataHandler
 
 assert torch.cuda.is_available(), "No cuda device detected"
 
@@ -169,3 +170,17 @@ class Inferer:
         split = f'{self.data_handler.prompt_template["output"]}{output or ""}'
         response = generation_output_decoded.split(split)[-1].strip()
         return response
+
+
+if __name__ == "__main__":
+    output_dir = "output/medalpaca-7b-tuned"
+    # model = AutoModelForCausalLM.from_pretrained(output_dir, torch_dtype='auto')
+    # tokenizer = AutoTokenizer.from_pretrained(output_dir)
+    medalpaca = Inferer(output_dir, "prompts/medalpaca.json")
+    sample = {
+        "instruction": "You are a personalized healthcare agent trained to predict readiness which ranges from 0 to 10 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps]: [2524.0, 2362.0, 2753.0, 3344.0, 2162.0, 1824.0, 2619.0, 2434.0, 2862.0, 1331.0, 1431.0] steps, [Burned Calorories]: [234.0, 222.0, 250.0, 331.0, 242.0, 218.0, 226.0, 226.0, 283.0, 138.0, 127.0] calories, [Resting Heart Rate]: [58.373215675354004, 57.88592052459717, 56.78752517700195, 0.0, 53.55788993835449, 0.0, 53.84395217895508, 53.669076919555664, 0.0, 0.0, 53.70508861541748, 54.71232509613037, 54.91011714935303, 55.746761322021484] beats/min, [SleepMinutes]: [440.0, 498.0, 449.0, 525.0, 387.0, 213.0, 388.0, 425.0, 231.0, 475.0, 368.0, 452.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "output": "The predicted readiness level is 5."
+    }
+    response = medalpaca.__call__(input=sample["input"], instruction=sample["instruction"])
+    print(response)
